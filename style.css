@@ -1,6 +1,9 @@
 * {
+    /* Elimina el margen predeterminado de todos los elementos */
     margin: 0;
+    /* Elimina el relleno predeterminado de todos los elementos */
     padding: 0;
+    /* Cambia el modelo de caja para incluir el relleno y el borde en el tamaño total del elemento */
     box-sizing: border-box;
 }
 body, html {
@@ -10,7 +13,9 @@ body, html {
 }
 
 .container-fluid {
+    /* Elimina el relleno izquierdo para asegurar que el contenedor ocupe todo el ancho disponible */
     padding-left: 0 !important;
+    /* Elimina el relleno derecho para asegurar que el contenedor ocupe todo el ancho disponible */
     padding-right: 0 !important;
 }
 
@@ -29,6 +34,7 @@ body, html {
     margin-right: 7%;
     text-align: center;
 }
+/* Esto sera todos los margenes */
 .margen{
     margin-top: 10%;
     margin-left: 21%;
@@ -56,6 +62,8 @@ body, html {
     margin-top: 3%;
     margin-left: 15%;
 }
+
+/* Todo esto sera los estilos  */
 .estilo{
     font-family: "Poppins", sans-serif;
     font-weight: 400;
@@ -89,6 +97,7 @@ body, html {
     text-align: center;
 }
 
+/* Tamaño de las imagenes */
 img {
     width: 350px;
     height: 350px;
@@ -103,9 +112,11 @@ img {
     height: 100%;
 }
 .imgpequeño{
-    width: 65%;
+    width: 85%;
     height: 80%;
 }
+
+/* Esto son los colores de mi fondo */
 .azul{
     background-color: blue;
 }
