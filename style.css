@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body, html {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* Evita el desplazamiento horizontal */
+}
+
+.container-fluid {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+.portada{
+    background-image: url("imagenes/banner-2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+.centro{
+    color: #000000;
+    position: absolute;
+    margin-top: 19%;
+    margin-left: 12%;
+    margin-right: 7%;
+    text-align: center;
+}
+.margen{
+    margin-top: 10%;
+    margin-left: 21%;
+    margin-right: 20%;
+    margin-bottom: 10%;
+}
+.margen1{
+    margin-top: 2%;
+    margin-left: 7%;
+    margin-bottom: 5%;
+
+}
+.margen2{
+    margin-top: 7%;
+    margin-right: 24%;
+    margin-left: 6%;
+}
+.margen3{
+    margin-left: 4%;
+}
+.margen4{
+    margin-bottom: 7%;
+}
+.margen5{
+    margin-top: 3%;
+    margin-left: 15%;
+}
+.estilo{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 4.5rem;
+}
+.estilo1{
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.estilo2{
+    margin-top: 2%;
+    margin-left: 5%;
+    margin-right: 3%;
+    margin-bottom: 4%;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+.estilo3{
+    color: aliceblue;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+
+}
+.centrado{
+    text-align: center;
+}
+
+img {
+    width: 350px;
+    height: 350px;
+    margin-right: 5%;
+    margin-left: 5%;
+    display: block;
+    margin: 0 auto;
+}
+
+.imagenes{
+    width: 100%;
+    height: 100%;
+}
+.imgpequeño{
+    width: 65%;
+    height: 80%;
+}
+.azul{
+    background-color: blue;
+}
+.fondocolor{
+    background-color: #20E090;
+}
+.fondocolorazul{
+    background-color: #4DA8FF;
+}
+.fondocolornegro{
+    background-color: #000000;
+}
